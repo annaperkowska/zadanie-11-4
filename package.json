@@ -1,7 +1,7 @@
 {
-  "name": "zadanie-10-3",
+  "name": "zadanie-11-4",
   "version": "1.0.0",
-  "description": "https://annaperkowska.github.io/zadanie-10-3/.",
+  "description": "https://annaperkowska.github.io/zadanie-11-4/.",
   "main": "index.js",
   "scripts": {
     "test": "npm-run-all test:*",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/annaperkowska/zadanie-10-3.git"
+    "url": "git+https://github.com/annaperkowska/zadanie-11-4.git"
   },
   "keywords": [],
   "author": "",
@@ -32,7 +32,7 @@
   "bugs": {
     "url": "https://github.com/annaperkowska/zadanie-10-3/issues"
   },
-  "homepage": "https://github.com/annaperkowska/zadanie-10-3#readme",
+  "homepage": "https://github.com/annaperkowska/zadanie-11-4#readme",
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
     "browser-sync": "^2.23.5",
