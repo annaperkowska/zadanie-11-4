@@ -12,6 +12,10 @@ Phone.prototype.alertInfo = function() {
 	alert("Final sale! Only today " + this.brand + " (" + this.color + ") with discount: -25%!")
 }
 
+Phone.prototype.changePrice = function() {
+	console.log("New price for " + this.brand + " is $" + this.price*0.75)
+}
+
 var iPhone6S = new Phone("Apple", 5555, "red"),
 	GalaxyS6 = new Phone("Samsung", 4444, "yellow"),
 	One = new Phone("OnePlus", 3333, "green"),
@@ -26,3 +30,7 @@ One.printInfo();
 Nokia3310.printInfo();
 
 Nokia3310.alertInfo();
+
+iPhone6S.changePrice();
+
+One.changePrice();
